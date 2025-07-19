@@ -22,8 +22,7 @@ Press the SPACEBAR to make the bird jump.
 Avoid pipes and keep flying.
 
 # Requirements
-Python 3.x
-Pygame
+Python 3.x & Pygame
 
 # Install Dependencies:
 pip install pygame
