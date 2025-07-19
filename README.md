@@ -6,7 +6,7 @@ Animation Bird:
 Wings cycle between up, straight and down to simulate flying.
 
 Smooth Gravity & Jump Physics:
-Implemented using floating point precision for realism.
+Implemented using floating-point precision for realism.
 
 Procedural Pipe Generation:
 Pipes appear at random heights with a fixed gap.
@@ -24,5 +24,15 @@ Avoid pipes and keep flying.
 # Requirements
 Python 3.x & Pygame
 
-# Install Dependencies:
+# Install Dependencies
 pip install pygame
+
+# Image Assets Required
+Ensure the following files are present in the same folder:
+bird_up.png
+bird_mid.png
+burd_down.png
+These should be 34x24 pixel images representing the flapping bird in different wing positions.
+
+# Run The Game
+python flappy_bird.py
